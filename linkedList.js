@@ -240,3 +240,25 @@ function find3rd(LL) {
         }
     }
 }
+
+
+//double check this one with Luke
+function sort(LL) {
+    let first = LL.head;
+    let curr = LL.head
+    while (curr.next !== null) {
+        curr = curr.next
+        curr2 = curr
+        while(curr2.next !== null) {
+            if (curr2.value<curr.value) {
+                //swap em
+            }
+        }
+    }
+}
+//would not modify linked list as is.
+//whenever you find one that's smaller, swap it with that one
+//start at first position, iterate, find smaller value, swap position
+//look this one up
+
+ 1, 2, 3, 4
